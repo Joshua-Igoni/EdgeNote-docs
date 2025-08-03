@@ -1,5 +1,8 @@
 # 02 · Infrastructure-as-Code (Terraform)
 
+You can browse the full Terraform code for provisioning Notejam’s AWS infrastructure here:  
+[📁 notejam-terraform](https://github.com/Joshua-Igoni/CPterraform)
+
 ### 2.1  Repository layout
 * **modules/**
 - **network/**: vpc, subnets, igw, nat

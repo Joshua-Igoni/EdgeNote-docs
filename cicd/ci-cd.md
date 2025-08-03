@@ -1,6 +1,7 @@
 # 03 · CI/CD pipelines
 
 ## 3.1  Application repo (`CPnotejam/.github/workflows/app.yml`)
+[📁 notejam-django](https://github.com/Joshua-Igoni/CPnotejam)
 
 | Step | Action |
 | --- | --- |
@@ -11,6 +12,7 @@
 *Branch protection:* only `CPassignment` triggers infra.
 
 ## 3.2  Infra repo (`CPterraform/.github/workflows/deploy.yml`)
+[📁 notejam-terraform](https://github.com/Joshua-Igoni/CPterraform)
 
 1. **OIDC auth** (`aws-actions/configure-aws-credentials@v4`).  
 2. `terraform init / validate / plan / apply`.  
