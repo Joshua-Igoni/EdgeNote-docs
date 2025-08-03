@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Notejam - Platform Engineering Assignment
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+|            | |
+|------------|---------------------------------------|
+| **Code**   | [App](https://github.com/your-org/notejam-app) · [Terraform](https://github.com/your-org/notejam-infra) |
+| **Region** | `eu-central-1` |
+| **Edge**   | CloudFront → ALB (private sub-nets) |
+| **Runtime**| Fargate (ECS) · Gunicorn + Django |
+| **Data**   | Aurora PostgreSQL (Multi-AZ) |
+| **Static** | S3 (+ Origin Access Control) |
 
-## Commands
+> This site documents *architecture, deployment workflow, and day-2 operations* for the Notejam demo platform.
+>
+> **Audience:** Reviewer(s), new team members, DevOps/SREs.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**Jump to:** [CI / CD](ci-cd.md) · [Module reference](infra-modules.md)

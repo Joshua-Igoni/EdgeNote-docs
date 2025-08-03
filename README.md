@@ -1,15 +1,17 @@
-# Notejam - Platform Engineering Docs
+# 📚 Notejam – Documentation Hub
 
-> :books:  **Docs live here →** <https://github.com/Joshua-Igoni/notejam-docs>
+Welcome to the **platform-engineer solution** for the Notejam Django app.
 
-This repository holds **all non-code artefacts** for the Notejam assignment:
+| Section | What you’ll find |
+| ------- | ---------------- |
+| **01-architecture** | System-level diagram & design decisions |
+| **02-infrastructure** | Terraform module layout, variables, state, security |
+| **03-ci-cd** | GitHub Actions pipelines (app & infra) end-to-end |
+| **04-local-dev** | How to clone, test, run & iterate locally |
+| **05-operations** | Logging, metrics, alarms, backup, DR |
+| **06-troubleshooting** | Common issues & quick fixes |
 
-* ✅ Architecture diagram  
-* ✅ Runbook & SLOs  
-* ✅ ADRs  
-* ✅ How-to guides & onboarding checklist
-
-| Code | Repo |
-|------|------|
-| Django app | <https://github.com/Joshua-Igoni/CPnotejam> |
-| Terraform | <https://github.com/Joshua-Igoni/CPterraform> |
+> _All resources live in **eu-central-1**. Combine this repo with_  
+> - `CPnotejam` (app code) and  
+> - `CPterraform` (IaC)  
+> for a complete, reproducible environment.

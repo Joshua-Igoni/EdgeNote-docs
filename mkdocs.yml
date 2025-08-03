@@ -1,8 +1,21 @@
-site_name: Notejam Engineering Docs
+site_name: Notejam Platform Docs
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - search.highlight
+
 nav:
-  - Home: index.md
-  - Architecture: diagrams/notejam-architecture.png
-  - Runbook: guides/runbook.md
-  - Local setup: guides/local-setup.md
+  - Overview: index.md
+  - Architecture:
+      - High-level: diagrams/architecture.md
+      - Network & Security: diagrams/network.md
+  - CI / CD: guides/ci-cd.md
+  - Infrastructure:
+      - Modules & Variables: guides/infra-modules.md
+      - Destroy-/ Tear-down: guides/destroy.md
+  - Application:
+      - Django settings: guides/app-config.md
+      - Static assets S3 + CloudFront: guides/static-assets.md
+  - ADRs:
+      - ADR-001 Bootstrap (Infra Layout): guides/adr-001-bootstrap.md
