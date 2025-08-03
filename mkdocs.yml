@@ -1,0 +1,8 @@
+site_name: Notejam Engineering Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Architecture: diagrams/notejam-architecture.png
+  - Runbook: guides/runbook.md
+  - Local setup: guides/local-setup.md
