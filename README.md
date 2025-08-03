@@ -9,7 +9,7 @@ Welcome to the **platform-engineer solution** for the Notejam Django app.
 | **03-ci-cd** | GitHub Actions pipelines (app & infra) end-to-end |
 | **04-local-dev** | How to clone, test, run & iterate locally |
 | **05-operations** | Logging, metrics, alarms, backup, DR |
-| **06-troubleshooting** | Common issues & quick fixes |
+
 
 > _All resources live in **eu-central-1**. Combine this repo with_  
 > - `CPnotejam` (app code) and  
