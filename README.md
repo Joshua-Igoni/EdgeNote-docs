@@ -1,6 +1,6 @@
-# 📚 Notejam – Documentation Hub
+# 📚 EdgeNote – Documentation Hub
 
-Welcome to the **platform-engineer solution** for the Notejam Django app.
+Welcome to the **EdgeNote** Django app.
 
 | Section | What you’ll find |
 | ------- | ---------------- |
@@ -12,6 +12,6 @@ Welcome to the **platform-engineer solution** for the Notejam Django app.
 
 
 > _All resources live in **eu-central-1**. Combine this repo with_  
-> - `CPnotejam` (app code) and  
-> - `CPterraform` (IaC)  
+> - `EdgeNote` (app code) and  
+> - `EdgeNote_terraform` (IaC)  
 > for a complete, reproducible environment.
